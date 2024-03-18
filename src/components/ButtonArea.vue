@@ -3,7 +3,7 @@
     <section class="lesson-2__sction">
       <h2 class="lesson-2__title">Vue Lesson 2-1</h2>
       <p>ボタンを押すと、"v-if", "v-show"で表示や非表示の制御をする</p>
-      <button @click="toggleDisplay()" class="button-a">表示/非表示ボタン</button>
+      <button @click="toggleDisplay()" class="button-a">表示/非表示にする</button>
       <div v-if="boolDisplay">
         現在表示中
       </div>
@@ -50,6 +50,14 @@ section + section {
   font-size: 1.6rem;
 }
 button {
+  width: 300px;
+  height: 60px;
+  margin-top: 20px;
+  background-color: black;
+  color: #fff;
+  line-height: 60px;
   cursor: pointer;
+  text-align: center;
+  border-radius: 100vmax;
 }
 </style>
