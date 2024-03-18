@@ -10,3 +10,20 @@
 <script setup>
 defineProps([ "backgroundColor" ])
 </script>
+
+<style scoped>
+header {
+  display: grid;
+  place-items: center;
+  height: 200px;
+}
+.lesson-1 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.lesson-1__text {
+  margin-top: 10px;
+  text-align: center;
+}
+</style>

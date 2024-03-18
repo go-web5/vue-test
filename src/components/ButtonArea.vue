@@ -39,17 +39,17 @@ const onlyDisplay = () => {
 
 
 <style scoped>
-  .lesson-2 {
-    margin-top: 40px;
-  }
-  section + section {
-    margin-top: 40px;
-  }
-  .lesson-2__title {
-    font-weight: bold;
-    font-size: 1.6rem;
-  }
-  button {
-    cursor: pointer;
-  }
+.lesson-2 {
+  margin-top: 40px;
+}
+section + section {
+  margin-top: 40px;
+}
+.lesson-2__title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+button {
+  cursor: pointer;
+}
 </style>
