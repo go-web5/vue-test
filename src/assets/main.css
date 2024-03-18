@@ -4,13 +4,16 @@
 .top-title {
   background-color: black;
   color: #fff;
-  padding: 40px;
   font-weight: bold;
   font-size: 2rem;
-  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 200px;
 }
 header {
-  padding: 40px;
+  display: grid;
+  place-items: center;
+  height: 200px;
 }
 .lesson-1 {
   font-weight: bold;
