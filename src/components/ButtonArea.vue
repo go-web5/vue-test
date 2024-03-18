@@ -3,8 +3,8 @@
     <section class="lesson-2__sction">
       <h2 class="lesson-2__title">Vue Lesson 2-1</h2>
       <p>ボタンを押すと、"v-if", "v-show"で表示や非表示の制御をする</p>
-      <button @click="toggleDisplay()" class="button-a">表示/非表示にする</button>
-      <div v-if="boolDisplay">
+      <button @click="toggleVisibility" class="button-a">表示/非表示にする</button>
+      <div v-show="isVisible">
         現在表示中
       </div>
     </section>
@@ -25,10 +25,11 @@
 <script setup>
 import { ref } from "vue"
 
-const boolDisplay = ref(false);
-const toggleDisplay = () => {
-  boolDisplay.value = !boolDisplay.value;
+const isVisible = ref(false);
+const toggleVisibility = () => {
+  isVisible.value = !isVisible.value;
 };
+
 
 const fruits = ref(['Apple', 'Banana', 'Cherry'])
 const repeatDisplay = ref(false);
