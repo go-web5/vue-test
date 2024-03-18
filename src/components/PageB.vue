@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppHeader/>
+    <AppHeader backgroundColor="yellow" />
   </div>
 </template>
 
