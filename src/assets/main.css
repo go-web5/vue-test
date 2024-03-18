@@ -1,27 +1,2 @@
 @import './reset.css';
 @import './base.css';
-
-.top-title {
-  background-color: black;
-  color: #fff;
-  padding: 40px;
-  font-weight: bold;
-  font-size: 2rem;
-  text-align: center;
-}
-header {
-  background-color: lightblue;
-  padding: 40px;
-}
-.lesson-1 {
-  font-weight: bold;
-  font-size: 2rem;
-  text-align: center;
-}
-.lesson-1__text {
-  margin-top: 10px;
-  text-align: center;
-}
-.lesson-2-2 {
-  margin-top: 40px;
-}

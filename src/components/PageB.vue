@@ -1,9 +1,11 @@
 <template>
   <div>
-    <AppHeader/>
+    <AppHeader backgroundColor="yellow" />
+    <Nav/>
   </div>
 </template>
 
 <script setup>
-  import AppHeader from './AppHeader.vue'
+import AppHeader from './AppHeader.vue'
+import Nav from './Nav.vue'
 </script> 
