@@ -25,40 +25,16 @@
 <script setup>
 import { ref } from "vue"
 
-const isVisible = ref(false);
+const isVisible = ref(false)
 const toggleVisibility = () => {
   isVisible.value = !isVisible.value;
 };
 
-
+const repeatDisplay = ref(false)
 const fruits = ref(['Apple', 'Banana', 'Cherry'])
-const repeatDisplay = ref(false);
 const onlyDisplay = () => {
   repeatDisplay.value = true;
 };
 </script>
 
-
-<style scoped>
-.lesson-2 {
-  margin-top: 40px;
-}
-section + section {
-  margin-top: 40px;
-}
-.lesson-2__title {
-  font-weight: bold;
-  font-size: 1.6rem;
-}
-button {
-  width: 300px;
-  height: 60px;
-  margin-top: 20px;
-  background-color: black;
-  color: #fff;
-  line-height: 60px;
-  cursor: pointer;
-  text-align: center;
-  border-radius: 100vmax;
-}
-</style>
+<style src="../assets/ButtonArea.css" scoped></style>
