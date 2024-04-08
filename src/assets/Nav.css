@@ -1,7 +1,13 @@
+/**************************
+* ナビゲーションエリア
+**************************/
+/* ナビゲーションリスト */
 .nav-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+/* ナビゲーションリンク */
 .nav-link {
   display: block;
   padding: 40px;
@@ -9,16 +15,24 @@
   font-size: 1.6rem;
   text-align: center;
 }
+
+/* ナビゲーションアイテム : Home */
 .nav-item .home {
   background-color: black;
   color: #fff;
 }
+
+/* ナビゲーションアイテム : ページ A */
 .nav-item .page-a {
   background-color: red;
 }
+
+/* ナビゲーションアイテム : ページ B */
 .nav-item .page-b {
   background-color: yellow;
 }
+
+/* ナビゲーションアイテム : ページ C */
 .nav-item .page-c {
   background-color: green;
 }

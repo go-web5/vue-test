@@ -1,4 +1,5 @@
 <template>
+  <!-- トップページ -->
   <div>
     <h1 class="top-title" v-html="title"></h1>
     <Nav/>

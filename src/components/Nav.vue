@@ -1,4 +1,5 @@
 <template>
+  <!-- ナビゲーションエリア -->
   <nav>
     <ul class="nav-list">
       <li class="nav-item">

@@ -1,4 +1,5 @@
 <template>
+  <!-- ヘッダーエリア : Vue Lesson 1 -->
   <header :style="{ 'background-color': backgroundColor }">
     <div>
       <h1 class="lesson-1">Vue Lesson</h1>
