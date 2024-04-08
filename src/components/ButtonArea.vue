@@ -1,5 +1,6 @@
 <template>
   <div class="lesson-2">
+    <!-- セクション : Vue Lesson 2-1 -->
     <section class="lesson-2__sction">
       <h2 class="lesson-2__title">Vue Lesson 2-1</h2>
       <p>ボタンを押すと、"v-if", "v-show"で表示や非表示の制御をする</p>
@@ -9,6 +10,7 @@
       </div>
     </section>
 
+    <!-- セクション : Vue Lesson 2-2 -->
     <section class="lesson-2__sction">
       <h2 class="lesson-2__title">Vue Lesson 2-2</h2>
       <p>ボタンを押したら、"v-for"で要素を連続して表示する</p>
@@ -26,12 +28,18 @@
 import { ref } from "vue"
 
 const isVisible = ref(false)
+/*
+ * 要素をクリックする毎に真偽値を変える
+ */
 const toggleVisibility = () => {
   isVisible.value = !isVisible.value;
 };
 
 const repeatDisplay = ref(false)
 const fruits = ref(['Apple', 'Banana', 'Cherry'])
+/*
+ * 要素をクリックしたら真偽値をtrueに変える
+ */
 const onlyDisplay = () => {
   repeatDisplay.value = true;
 };

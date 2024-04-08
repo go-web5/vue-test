@@ -1,4 +1,5 @@
 <template>
+  <!-- ページ B -->
   <div>
     <AppHeader backgroundColor="yellow" />
     <Nav/>
